@@ -1,0 +1,131 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
+/* =============================
+  ==========footer============= */
+
+.footer {
+    color: white;
+    padding: 15px;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+            #434343,
+            #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.footer a:hover {
+    color: #ffefba;
+    border-bottom: 1px solid #ffefba;
+}
+
+/* =================================
+  ======== page not found css ======= */
+.pnf {
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pnf-title {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.pnf-heading {
+    font-weight: normal;
+}
+
+.pnf-btn {
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.pnf-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* =================================
+  ======== Register Page css ======= */
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%)
+}
+
+.register-form {
+    width: 25%;
+    height: 100%;
+    margin: 50px 0px;
+    background-color: #f7f6f5;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.register-form-heading {
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+/* =================================
+  ======== LOGIN Page css ======= */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 75vh;
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%)
+}
+
+.login-form {
+    width: 25%;
+    height: 60%;
+    margin: auto;
+    background-color: #f7f6f5;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.login-form-heading {
+    text-align: center;
+    font-weight: 700;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: space-between;
+}
